@@ -12,3 +12,4 @@ def ine-in(telligence):
 telligence =  input('Enter text for transubstantiation:')
 ine-in(telligence)
 genome = ''.join(h)
+print(genome)
