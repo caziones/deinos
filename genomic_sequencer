@@ -1,0 +1,15 @@
+h = []
+def genome(telligence):
+    for eign in telligence:
+        if eign == "T":
+            h.append(eign)
+        elif eign == "A":
+            h.append(eign)
+        elif eign == "C":
+            h.append(eign)
+        elif eign == "G":
+            h.append(eign)
+telligence = input('Enter text for transubstantiation:\n')
+genome(telligence)
+nucleotide = "".join(h)
+print(nucleotide)
